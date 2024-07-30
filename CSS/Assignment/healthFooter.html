@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Footer</title>
+</head>
+<style>
+    .mainDiv{
+        background-color: #eda596;
+        height: 400px;
+        border-top-left-radius: 20px;
+        padding: 20px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .second-container{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .second-container div{
+        padding: 10px;
+    }
+    .contact{
+        border: 1px solid;
+    }
+    .image-container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        gap: 10px;
+    }
+    .car{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .dog-item{
+        align-self: flex-end;
+        justify-content: right;
+    }
+</style>
+<body>
+    <div class="mainDiv">
+        <div class="container">
+            <div>
+                <div>Embodied</div>
+                <div>Health</div>
+            </div>
+            <div>
+                <div class="second-container">
+                    <div>
+                        Home
+                    </div>
+                    <div>About</div>
+                    <div class="contact">Contact</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div><img class="car" src="/images/car.jpg" alt=""></div>
+            <div >
+                <div style="margin-bottom: 40px; margin-top: 60px; font-size: 20px;">a safe space for healing</div>
+                <div>Individual Theraphy</div>
+            </div>
+            <div class="dog-item">
+                <img src="/images/dog.jpg" alt="" width="40%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

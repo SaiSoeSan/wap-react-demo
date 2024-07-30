@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paypal</title>
+</head>
+<style>
+    .securePayment{
+        background-color: gray;
+        text-align: center;
+        color: rgb(15, 15, 101);
+    }
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .leftMenu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rightMenu{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .myImage{
+        width: 20px;
+        height: 20px;
+    }
+    .flex-item{
+        padding: 8px;
+    }
+    .login-btn{
+        border: 1px solid rgb(11, 11, 139);
+        border-radius: 30px;
+    }
+    .signup-btn{
+        background-color: darkblue;
+        color: white;
+        border-radius: 30px;
+    }
+    .bannerDiv{
+        background-image: url("/images/car.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 30px;
+        color: yellow;
+    }
+    .banner-dog{
+        width: 10%;
+        border: 3px solid pink;
+        border-radius: 15px;
+        position: relative;
+    }
+    .vertical-border{
+        border-right: 2px solid gray;
+        margin: 0px 10px;
+    }
+</style>
+<body>
+    <div class="securePayment">
+        Secure payments...
+    </div>
+    <nav class="flex-container">
+        <div class="leftMenu">
+            <img  src="/images/dog.jpg" class="myImage flex-item" alt="" >
+            <div class="flex-item">Personal</div>
+            <div class="flex-item">Business</div>
+            <div class="flex-item">Enterprise</div>
+        </div>
+        <div class="rightMenu">
+            <div class="flex-item">Help</div>
+            <div class="flex-item login-btn">Login</div>
+            <div class="flex-item signup-btn">Sign Up</div>
+        </div>
+    </nav>
+    <hr>
+    <div class="bannerDiv">
+        <div>Shop</div>
+        <div>Send</div>
+        <div>Manage</div>
+        <div style="margin-top: 10px;">Scan code</div>
+        <div style="display: flex;">
+            <img class="banner-dog" src="/images/dog.jpg" alt="">
+            <div class="vertical-border"></div>
+            <div>
+                <div style="width:200px; border:1px solid white;padding:10px;margin-bottom:10px;">Phone number </div>
+                <div style="width:80px;background-color: #001c64; border-radius:20px;color:white;padding:10px;">Send
+                    Link</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
